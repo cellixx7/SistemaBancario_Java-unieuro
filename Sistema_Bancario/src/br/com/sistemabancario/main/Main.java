@@ -1,9 +1,16 @@
 package br.com.sistemabancario.main;
 
+/**
+ * Ponto de entrada da aplicação. Inicializa a interface gráfica (Swing)
+ * e cria uma instância do banco em memória.
+ */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== SISTEMA BANCÁRIO ===");
-        System.out.println("Menu será implementado aqui...");
+        // Inicia a UI na thread de evento do Swing
+        javax.swing.SwingUtilities.invokeLater(() -> {
+            br.com.sistemabancario.banco.Banco banco = new br.com.sistemabancario.banco.Banco();
+            new br.com.sistemabancario.ui.login.LoginUI(banco);
+        });
     }
 }
 
