@@ -54,8 +54,7 @@ java Main
 📄 Licença
 Este projeto foi desenvolvido para fins didáticos e de portfólio. Sinta-se à vontade para explorar e sugerir melhorias!
 
-Desenvolvido por Marcelo Vaz & Leo  👋
+Desenvolvido por Marcelo Vaz & Álex Santana 👋
 
+[Slides de apresentação](https://gamma.app/docs/Desvendando-o-Sistema-Bancario-em-Java-Parte-1-oyurvm6gs44au25)
 
-- https://gamma.app/docs/Desvendando-o-Sistema-Bancario-em-Java-Parte-1-oyurvm6gs44au25 
-*SLIDES DA APRESENTAÇÃO*
